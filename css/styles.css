@@ -1,5 +1,14 @@
 /* Global styles
 ----------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #3f4471;
   margin: 0;
