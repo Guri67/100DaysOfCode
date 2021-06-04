@@ -44,6 +44,15 @@ h2 {
   margin: 0 auto;
   padding: 60px 0;
 }
+h3 {
+  margin-bottom: 0;
+}
+h3 + p {
+  font-style: italic;
+}
+h3 ~ p {
+  margin: 0;
+}
 
 /* Profile
 ----------------------------*/
@@ -97,6 +106,7 @@ header {
 .job-item {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
 }
 
 /* Education
